@@ -1,12 +1,6 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
 
-// mongoose.connect("mongodb://127.0.0.1:27017/task-manager",{
-//     useNewUrlParser:true,
-//     useUnifiedTopology: true, 
-//     useCreateIndex: true 
-// })
-
 const User = mongoose.model('User',{
     name:{
         type: String,
@@ -46,18 +40,5 @@ const User = mongoose.model('User',{
         }
     }
 })
-
-// const user1 = new User({
-//     name: 'aissami',
-//     email: 'ismail@gmail.com',
-//     password: 'mypword',
-//     age: 26
-// })
-
-// user1.save().then((user)=>{
-//     console.log('The user is added to db!\n', user)
-// }).catch((error)=>{
-//     console.log('the user is not added to db!\n', error)
-// })
 
 module.exports = User
