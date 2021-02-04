@@ -16,5 +16,6 @@
     ```
 3. Start server with the new script 
     ```
-        npm start dev
+        npm run dev
+        /Users/aissa/mongodb/bin/mongod.exe --dbpath=/Users/aissa/mongodb-data
     ```
