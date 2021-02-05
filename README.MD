@@ -5,6 +5,7 @@
         npm i mongodb
         npm i mongoose
         npm i validator
+        npm i bcryptjs
     ``` 
 2. Modifie scripts in package.json (start and dev)
 
